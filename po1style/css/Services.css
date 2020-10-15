@@ -1,6 +1,6 @@
 .service-column {
     float: left;
-    width: 33%;
+    width: 33.33%;
 
     height: auto;
     background-color: white;
@@ -27,6 +27,7 @@
 }
 .columnn {
   width: 100%;
+
 }
 
 .columnn {
@@ -34,6 +35,7 @@
   width: 33.33%;
   padding: 15px;
   text-decoration: none;
+
 }
 
 .columns {
@@ -80,9 +82,7 @@ a{
 .containerr {
  position: relative;
  width: 100%;
- max-width: 965px;
 }
-
 
 /* Style the list */
 .price {
@@ -127,14 +127,29 @@ a{
 }
 
 .button {
-  background-color:  #262623;
+  background-color:  #262223;
   border: none;
   color: white;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 12px;
+
+  border-radius: 4px;
+}
+
+.button-nav {
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color:#262223;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 4px;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
 }
 
 .overlay {
@@ -147,11 +162,11 @@ a{
   width: 100%;
   opacity: 5%;
   transition: .5s ease;
-  background-color: #d9d9d9 ;
+  background-color: white ;
 }
 
 .containerr:hover .overlay {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 .text {
@@ -171,6 +186,13 @@ a{
     .service-column {
         width: 50%;
       }
+
+      .columnn {
+        width: 55%;
+      }
+      .columns {
+        width: 55%;
+      }
 }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -178,4 +200,13 @@ a{
       width: 100%;
     }
 
+    .roww {
+      flex-direction: column-reverse;
+    }
+    .columnn {
+      width: 100%;
+    }
+    .columns {
+      width: 100%;
+    }
   }
