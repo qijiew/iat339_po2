@@ -1,0 +1,25 @@
+
+* {
+    box-sizing : border-box;}
+
+
+body {
+      font-family:'Open Sans', sans-serif;
+      padding: 2rem;
+    }
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color:  black;
+  
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
