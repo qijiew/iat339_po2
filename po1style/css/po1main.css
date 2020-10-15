@@ -639,9 +639,9 @@ font-size:20px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin: 20px;
   justify-content: space-between;
 }
-
 
 .column {
   -ms-flex: 25%;
