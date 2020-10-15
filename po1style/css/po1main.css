@@ -9,18 +9,18 @@
 
     @media (max-width: 32em) {
       .box {
-  
+
           display:flex;
           flex-direction:column;
-      
+
       }
-    
+
   }
 
     section {
     margin-top: 5em;
     margin-bottom: 5em;
-    
+
     display:block;
     display:flex;
     flex-direction:column;
@@ -59,7 +59,7 @@
     }
     #menu {
       margin-top:150px;
-    }  
+    }
     #menu a {
     display:inline-block;
     color: #000;
@@ -198,19 +198,19 @@ display:flex;
   position: relative;
   width: 50%;
   justify-content :flex-start;
-  
-  
+
+
 }
 
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto; 
+  height: auto;
   transition: .3s ease;
   backface-visibility: hidden;
   justify-content :flex-start;
-  
+
 }
 
 .middle {
@@ -304,26 +304,19 @@ transition: .3s ease-out;
 
 
 .product-button {
-  font-family:'Open Sans', sans-serif;
-
-  font-size: 20px;
-  display: inline-block;
-  padding: 2.5px 2.5px;
-  padding-left:15px;
-  padding-right:15px;
-
-  border-radius:4px;
-  color: #F2F2F2;
-  background-color: #737272;
-
+  background-color:  #262223;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+
+  border-radius: 4px;
 }
 
 .product-button:hover, .product-button:focus {
   background-color:  #262223 ;
- 
+
 }
 
 
@@ -341,7 +334,7 @@ transition: .3s ease-out;
   border-radius: 3px;
   border-width: 2px;
   max-width:500px;
- 
+
 
 
 }
@@ -583,9 +576,9 @@ font-size:20px;
 
 
 .row {
-  display: -ms-flexbox; 
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; 
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
   justify-content: space-between;
@@ -593,7 +586,7 @@ font-size:20px;
 
 
 .column {
-  -ms-flex: 25%; 
+  -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;

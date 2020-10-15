@@ -65,7 +65,7 @@
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
-  border-radius: 12px;
+  border-radius: 4px;
 }
 
 .button-nav:hover, .button-nav:focus {
