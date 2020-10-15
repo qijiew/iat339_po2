@@ -177,15 +177,6 @@ a{
       margin-bottom: 20px;
     }
   }
-  .roww {
-    flex-direction: column-reverse;
-  }
-  .columnn {
-    width: 100%;
-  }
-  .columns {
-    width: 100%;
-  }
 
 }
 
