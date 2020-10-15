@@ -144,6 +144,11 @@
   text-align: center;
 }
 
+/* active link  */
+a{
+  text-decoration: none;
+  color: #262223;
+}
 /* Footer */
 .footer {
   padding: 20px;
