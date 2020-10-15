@@ -55,6 +55,7 @@
   text-align: center;
   background: white;
   color:  black;
+
 }
   .button-nav {
   display: inline-block;
@@ -129,6 +130,7 @@
  width: 100%;
  max-width: 965px;
 }
+
 
 .text {
   color: white;
