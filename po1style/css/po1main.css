@@ -123,6 +123,64 @@ border-bottom: #737272 solid 2.5px;
 transition: .8s ease;
 }
 
+.logoMenu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoMenu>div{
+  flex-grow: 1;
+}
+
+.logoMenu>div:nth-child(1){
+  width: 40%;
+}
+
+.logoMenu>div:nth-child(1)>div{
+  display:none;
+}
+
+.logoMenu>div:nth-child(2){
+  width: 20%;
+}
+
+.logoMenu>div:nth-child(3){
+  width: 40%;
+  text-align:right;
+  padding-right:6rem;
+}
+
+.logoMenu>div:nth-child(3) i{
+  font-size:25pt;
+}
+
+.logoMenu ul{
+  display:flex;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.logoMenu a{
+  color:#737272;
+  text-decoration:none;
+  transition: color 0.5s;
+  padding: 0.5em;
+}
+
+.logoMenu>div:nth-child(1) a:hover{
+  color:#262223;
+  border: 1px solid black;
+}
+.logoMenu a:hover{
+  color:#262223;
+}
+.logoMenu ul li{
+  padding:0.2rem 1.5rem;
+}
+
+
 
 
 /* submit/reset button*/
