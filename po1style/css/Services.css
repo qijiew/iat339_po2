@@ -1,20 +1,171 @@
 .service-column {
     float: left;
     width: 33%;
-    
-    height: auto; 
+
+    height: auto;
     background-color: white;
     justify-content:center;
   }
-  
+
 
   .service-row .row:after {
     content: "";
     display: table;
     clear: both;
-   
+
   }
-  
+
+  .roww {
+  flex-direction: column-reverse;
+}
+
+/* Clear floats after the columns */
+.roww::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnn {
+  width: 100%;
+}
+
+.columnn {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.columns {
+  width: 100%;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  color:  #0e2d21;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+h2 {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+/* top images */
+.containerr {
+ position: relative;
+ width: 100%;
+ max-width: 965px;
+}
+
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px ;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  color: black;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #262623;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+/* List items */
+.price li {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  background-color:  #262623;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 5%;
+  transition: .5s ease;
+  background-color: #d9d9d9 ;
+}
+
+.containerr:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
   @media screen and (max-width: 80em) {
 
     .service-column {
@@ -28,5 +179,3 @@
     }
 
   }
-
-
