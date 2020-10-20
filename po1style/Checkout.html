@@ -18,30 +18,33 @@
   <body>
 
     <div class="header">
-      <h1>A.N.D Studio</h1>
+    <h1><a href="home.html">A.N.D Studio</a></h1>
       <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
     </div>
 
+    <div class="logoMenu" nav id="main-menu">
+        <div>
 
-    <div class="topnav" nav id="main-menu">
-
+<ul>
           <a href="P01styleguide.html"> Style guide</a>
-            <li><a href="about.html">About</a></li>
+          <a href="home.html">Home</a>
             <a href="about.html">About</a>
-          <a href="Services.html">Service list</a>
+          <a href="Services.html">Services</a>
           <a href="Checkout.html">Checkout</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
  <i class="fa fa-bars"></i> </a>
+   </ul>
 
         </div>
-
-      <script>
+<div><a href="">Search</a><a href=""><i class="fa fa-cart-plus"></i></a></div>
+</div>
+    <script>
       function myFunction() {
         var x = document.getElementById("main-menu");
-        if (x.className === "topnav") {
+        if (x.className === "logoMenu") {
           x.className += " responsive";
         } else {
-          x.className = "topnav";
+          x.className = "logoMenu";
         }
       }
       </script>
