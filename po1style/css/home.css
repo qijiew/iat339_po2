@@ -32,8 +32,6 @@
 	margin-top:2rem;
 }
 
-
-/*Icons*/
 .icon-section{
 	display:flex;
 	width:95vw;
@@ -57,30 +55,14 @@
 	width:40%;
 }
 
+/*
+.icon-section>div:nth-child(1)>div{
+	width:50%;
+	padding:5rem;
+}*/
+
 .icon-section>div>img{
 	width: 5em;
 	height: 5em;
-}
-
-/*introduction of company*/
-.about-section{
-	display:flex;
-	width:80vw;
-	margin:auto;
-	background-color: #e5e5e5;
-	margin-top:5rem;
-}
-
-.about-section>div:nth-child(1){
-	width:40%;
-}
-
-.about-section>div:nth-child(1) img{
-	width: 32vw;
-	height: 40vw;
-}
-.about-section>div:nth-child(2){
-	width:60%;
-	padding:3rem;
 }
 
