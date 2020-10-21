@@ -20,15 +20,15 @@
             <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
           </div>
 <!--10/20 nav bar-->
-<div class="topnav" nav id="main-menu">
-
-    <a href="P01styleguide.html"> Style guide</a>
-    <a href="about.html">about</a> 
-    <a href="Services.html">Service list</a> 
-    <a href="Checkout.html">Checkout</a> 
-    <a href="contact.html">Contact</a> 
+<div class="topnav" id="main-menu">
+  <a href="P01styleguide.html"> Style guide</a>
+  <a href="home.html">Home</a>
+  <a href="about.html">about</a>
+  <a href="Services.html">Service list</a>
+  <a href="Checkout.html">Checkout</a>
+  <a href="contact.html">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-<i class="fa fa-bars"></i> </a>
+    <i class="fa fa-bars"></i> </a>
 
   </div>
 
@@ -36,7 +36,7 @@
 function myFunction() {
   var x = document.getElementById("main-menu");
   if (x.className === "topnav") {
-    x.className += " responsive";
+    x.className += "responsive";
   } else {
     x.className = "topnav";
   }
@@ -81,7 +81,7 @@ function myFunction() {
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Say hello to us..." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Say hello to us..." ></textarea>
 
     <input type="submit" value="Submit">
   </form>
