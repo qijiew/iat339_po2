@@ -66,3 +66,119 @@
 	height: 5em;
 }
 
+
+.learn-button {
+ 
+  background-color:  #737272;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 4px;
+}
+
+.learn-button:hover, .learn-button:focus {
+  background-color:  #262223;
+  color:white;
+  transition: 0.3s;
+}
+
+/*Update event*/
+/* tommy jeans section start*/
+.updateEvent{
+	display:flex;
+	width:98vw;
+	background-color: #737272;
+	margin-top:3rem;
+	margin-left: -2em;
+}
+
+.updateEvent>div:nth-child(1){
+	width:40%;
+}
+
+.updateEvent>div:nth-child(1) img{
+	width:80%;
+	height: 40em;
+	margin-left: 4em;
+	margin-top: 1em;
+}
+
+.updateEvent>div:nth-child(2){
+	width:60%;
+	padding:2rem;
+	margin:5em;
+}
+.updateEvent>div:nth-child(2)>h2, h3{
+	font-family: 'Chenla';
+	color: white;
+}
+.updateEvent>div:nth-child(2)>p, ul{
+	width:40em;
+	color: white;
+}
+.updateEvent>div:nth-child(2)>div{
+	margin-top: 5em;
+}
+
+.contact-button {
+ 
+  background-color:  #262223;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 3px;
+}
+
+.contact-button:hover, .contact-button:focus {
+  background-color:  #F2F2F2;
+  color:black;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 840px){
+  .logoMenu>div:nth-child(1)>div{
+    display:block;
+    font-size:20pt;
+    margin-left:0.3rem;
+  }
+
+  .logoMenu>div:nth-child(1)>ul{
+    display:none;
+  }
+
+  .updateEvent{
+    flex-direction: column;
+    width:90vw;
+  }
+
+  .updateEvent>div:nth-child(1){
+    width:100%;
+  }
+
+  .updateEvent>div:nth-child(2){
+    width:100%;
+    padding:2rem;
+  }
+
+  .picture-background>h2{
+    font-size:40pt;
+  }
+
+  .updateEvent>div:nth-child(1) img{
+	width:60%;
+	height: 40em;
+	margin-left: 9em;
+	margin-top: 4em;
+}
+.updateEvent>div:nth-child(2){
+	width:60%;
+	padding:2rem;
+	margin:1em;
+}
+}
