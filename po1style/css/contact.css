@@ -1,5 +1,5 @@
 *, :after, :before {
-   
+
     box-sizing: border-box;
 }
 
@@ -8,15 +8,15 @@
     text-align: center;
     background: white;
     color:  black;
-  
+
   }
 
   body {
     line-height: 1.7;
     color: #000;
-    font-family:'Open Sans', sans-serif;    
+    font-family:'Open Sans', sans-serif;
     font-size: 1rem;
-    
+
 }
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -28,7 +28,7 @@
 
 
 
-  
+
 
   #main-menu{
     margin-bottom:50px;
@@ -66,7 +66,7 @@
         padding-top: 8rem;
       }
       .content{
-       
+
         font-size: 16px;
       }
 
@@ -74,11 +74,19 @@
         display: flex;
         width: 80vw;
         margin: auto;
-        
+
         margin-top: 2rem;
         width:55%
-        
 
+
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #f2f2f2;
+        margin-top: 20px;
       }
 
       @media (max-width: 1250px) {
@@ -88,8 +96,8 @@
         }
       }
 
-   
-    
+
+
 
       .container{
 
@@ -128,7 +136,7 @@
         margin-bottom: 1rem;
         resize: vertical;
       }
-      
+
       input[type=submit] {
         background-color: #000;
         color: white;
@@ -138,11 +146,11 @@
         cursor: pointer;
         width:100%;
       }
-      
+
       input[type=submit]:hover {
         background-color: #ccc;
       }
-      
+
       textarea{
 
         height:200px;
@@ -150,19 +158,17 @@
 
       div.mapsize {
 
-    
-      
+
+
         border: 1rem solid white;
         border-radius:1rem;
         box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
       }
-    
-    
+
+
     iframe { width:25rem;
        height:18.75rem;
       border:0;
-      
-    
-      }
 
-      
+
+      }
