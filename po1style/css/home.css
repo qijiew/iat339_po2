@@ -55,12 +55,6 @@
 	width:40%;
 }
 
-/*
-.icon-section>div:nth-child(1)>div{
-	width:50%;
-	padding:5rem;
-}*/
-
 .icon-section>div>img{
 	width: 5em;
 	height: 5em;
@@ -68,14 +62,12 @@
 
 
 .learn-button {
- 
   background-color:  #737272;
   border: none;
   color: white;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-
   border-radius: 4px;
 }
 
@@ -86,7 +78,6 @@
 }
 
 /*Update event*/
-/* tommy jeans section start*/
 .updateEvent{
 	display:flex;
 	width:98vw;
@@ -141,6 +132,52 @@
   transition: 0.3s;
 }
 
+/*introduction*/
+.introContent {
+	text-align: center;
+	width: 40%;
+	margin:auto;
+	margin-top: 5em;
+	line-height: 2em;
+}
+.introContent> div h2{
+	font-family: 'Chenla';
+	color: #262223;
+}
+.line{
+	margin-top: 5em;
+	border: black solid 1px;
+	width: 40%;
+	margin-left: 30%;
+}
+
+.introImages{
+	display:flex;
+	margin:auto;
+	margin-left: 15em;
+}
+.introImages>div:nth-child(1){
+	width:50%;
+}
+
+.introImages>div:nth-child(1) img{
+	width:100%;
+	height: 40em;
+	margin-top: 1em;
+}
+
+.introImages>div:nth-child(2){
+	width:50%;
+	padding:1rem;
+}
+.introImages>div:nth-child(2)>div:nth-child(1) img{
+	height: 20em;
+}
+.introImages>div:nth-child(2)>div:nth-child(2) img{
+	height: 20em;
+}
+/*responsive*/
+
 @media only screen and (max-width: 840px){
   .logoMenu>div:nth-child(1)>div{
     display:block;
@@ -181,4 +218,29 @@
 	padding:2rem;
 	margin:1em;
 }
+
+  .introImages{
+    flex-direction: column;
+    margin-left: -1em;
+  }
+
+.introImages>div:nth-child(1) img{
+	width:32em;
+	height: 30em;
+	margin-top: 3em;
+	margin-left: 3em;
+}
+
+.introImages>div:nth-child(2){
+	margin-left: 2em;
+}
+.introImages>div:nth-child(2)>div:nth-child(1) img{
+	width:32em;
+	height: 30em;
+}
+.introImages>div:nth-child(2)>div:nth-child(2) img{
+		width:32em;
+	height: 30em;
+}
+
 }
