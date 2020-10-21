@@ -25,10 +25,7 @@
   display: table;
   clear: both;
 }
-.columnn {
-  width: 100%;
 
-}
 
 .columnn {
   float: left;
@@ -78,11 +75,17 @@ a{
   color: #a6a6a6;
 }
 
+p{
+    font-size: 18px;
+}
+
 /* top images */
 .containerr {
  position: relative;
  width: 100%;
 }
+
+
 
 /* Style the list */
 .price {
@@ -181,6 +184,14 @@ a{
   text-align: center;
 }
 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f2f2f2;
+  margin-top: 20px;
+}
+
   @media screen and (max-width: 80em) {
 
     .service-column {
@@ -196,6 +207,9 @@ a{
 }
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
     .service-column {
       width: 100%;
     }
