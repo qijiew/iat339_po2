@@ -1,6 +1,8 @@
-*{
+/* *{
   border:1px solid red;
 }
+
+*/
 
 .service-column {
     float: left;
@@ -30,7 +32,6 @@
     display: table;
     clear: both;
 }
-
 
 .columnn {
     float: left;
