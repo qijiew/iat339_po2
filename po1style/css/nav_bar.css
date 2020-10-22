@@ -78,6 +78,11 @@
     font-family: 'Chenla';
 }
 
+.logoMenu1 ul li:hover {
+    border: black 2px solid;
+    
+}
+
 .active {
     border: black 2px solid;
 }
