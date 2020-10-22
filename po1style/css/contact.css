@@ -133,6 +133,9 @@ textarea {
 
 }
 
+
+
+
 .contact-map-row{
     display:flex;
     flex-direction: row;
@@ -156,6 +159,26 @@ textarea {
     
     color:#262223;
     font-size:35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .contact-map-row{
+        display:flex;
+        flex-direction: column;
+        flex-grow: 1;
+        
+        
+        
+        
+    }
+    .contact-map-col{
+        text-align: center;
+        max-width: 100%;
+       
+    
+    }
 }
 
 /* Footer */
