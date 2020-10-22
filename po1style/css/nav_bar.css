@@ -1,0 +1,131 @@
+.logoMenu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*border:1px solid red;*/
+    width: 100%;
+}
+
+.logoMenu1>div {
+    flex-grow: 1;
+
+
+}
+
+.logoMenu1>div:nth-of-type(1) {
+    width: 20%;
+    min-width: 290px;
+    /*border:1px solid red;*/
+}
+
+
+
+.logoMenu1>div:nth-of-type(2) {
+    /*border:1px solid red;*/
+    width: 65%;
+    /*border:1px solid red;*/
+}
+
+.logoMenu1>div:nth-of-type(3) {
+    width: 15%;
+    /*text-align:right;*/
+    /*padding-right:1vw;*/
+    flex-shrink: 2;
+    text-align: right;
+    /*border:1px solid red;*/
+    min-width: 130px;
+}
+
+.logoMenu1>div:nth-of-type(3) i {
+    font-size: 25pt;
+}
+
+.logoMenu1 ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    /*border:1px solid green;*/
+}
+
+
+
+.logoMenu1 a {
+
+    color: #737272;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding: 0.5em;
+}
+
+.logoMenu1 h1 {
+    font-family: 'Chenla';
+}
+
+.logoMenu1>div:nth-child(1) a:hover {
+    color: #262223;
+}
+
+.logoMenu1 a:hover {
+    color: #737272;
+}
+
+.logoMenu1 ul li {
+    padding: 0.2rem 1vw;
+    font-family: 'Chenla';
+}
+
+.active {
+    border: black 2px solid;
+}
+
+.logoMenu1 h1 .fa {
+    font-size: 20pt;
+}
+
+.logoMenu1 h1 a:nth-child(1) {
+    display: none;
+}
+
+/*responsive*/
+
+@media only screen and (max-width: 1020px) {
+    .logoMenu1 ul {
+        display: none;
+    }
+
+    .logoMenu1 h1 a:nth-child(1) {
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (max-width: 840px) {
+    .logoMenu>div:nth-of-type(1)>div {
+        display: block;
+        font-size: 20pt;
+        margin-left: 0.3rem;
+    }
+
+    .logoMenu>div:nth-of-type(1)>ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logoMenu1 {
+        flex-direction: column;
+    }
+
+    .logoMenu1>div:nth-of-type(1) {
+        width: 100%;
+
+    }
+
+    .logoMenu1>div:nth-of-type(3) {
+        width: 100%;
+    }
+}
