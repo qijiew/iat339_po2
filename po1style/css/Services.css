@@ -1,67 +1,72 @@
+*{
+  border:1px solid red;
+}
+
 .service-column {
     float: left;
     width: 33.33%;
 
     height: auto;
     background-color: white;
-    justify-content:center;
-  }
+    justify-content: center;
+
+}
 
 
-  .service-row .row:after {
+.service-row .row:after {
     content: "";
     display: table;
     clear: both;
 
-  }
+}
 
-  .roww {
-  flex-direction: column-reverse;
+.roww {
+    flex-direction: column-reverse;
 }
 
 /* Clear floats after the columns */
 .roww::after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
 .columnn {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-  text-decoration: none;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    text-decoration: none;
 
 }
 
 .columns {
-  width: 100%;
+    width: 100%;
 }
 
 /* Create three columns of equal width */
 .columns {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 span.price {
-  float: right;
-  color: grey;
+    float: right;
+    color: grey;
 }
 
 .header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-  color:  #0e2d21;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: #0e2d21;
 }
 
 .header h1 {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 h2 {
@@ -70,157 +75,163 @@ h2 {
     color: black;
 }
 
-a{
-  text-decoration: none;
-  color: #a6a6a6;
+a {
+    text-decoration: none;
+    color: #a6a6a6;
 }
 
-p{
+p {
     font-size: 18px;
 }
 
 /* top images */
 .containerr {
- position: relative;
- width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 
 
 /* Style the list */
 .price {
-  list-style-type: none;
-  border: 1px ;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  text-decoration: none;
-  color: black;
+    list-style-type: none;
+    border: 1px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
 }
 
 /* Add shadows on hover */
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
 /* Pricing header */
 .price .header {
-  background-color: #262623;
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
+    background-color: #262623;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
 
 }
 
 /* List items */
 .price li {
-  text-decoration: none;
-  color: black;
-  padding: 20px;
-  text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Grey list item */
 .price .grey {
-  background-color: #eee;
-  font-size: 20px;
-  text-decoration: none;
-  color: black;
+    background-color: #eee;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .button {
-  background-color:  #262223;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
+    background-color: #262223;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
 
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 .button-nav {
-  display: inline-block;
-  padding: 10px 25px;
-  color: white;
-  background-color:#262223;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-  border-radius: 4px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #262223;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 4px;
 }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
+.button-nav:hover,
+.button-nav:focus {
+    background-color: rgb(200, 200, 200);
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 5%;
-  transition: .5s ease;
-  background-color: white ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 5%;
+    transition: .5s ease;
+    background-color: white;
 }
 
 .containerr:hover .overlay {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #f2f2f2;
-  margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #f2f2f2;
+    margin-top: 20px;
 }
 
-  @media screen and (max-width: 80em) {
+@media screen and (max-width: 900px) {
 
-    .service-column {
+  /*  .service-column {
         width: 50%;
-      }
+    }*/
 
-      .columnn {
-        width: 55%;
-      }
-      .columns {
-        width: 55%;
-      }
-}
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .columnn {
+        width: 100%;
     }
+
+    .columns {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
     .service-column {
-      width: 100%;
+        width: 100%;
     }
 
     .roww {
-      flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
+
     .columnn {
-      width: 100%;
+        width: 100%;
     }
+
     .columns {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
