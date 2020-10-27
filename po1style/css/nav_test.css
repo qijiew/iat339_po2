@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+/* overlay effect*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* overlay effect*/
+.navbar {
+
+
+    font-size: 18px;
+    background-color: white;
+
+    padding-bottom: 10px;
+
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+
+}
+
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.main-nav li:hover {
+    border: black 2px solid;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width: 750px) {
+    .navbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    div h1 {
+
+        width: 50%;
+        font-size: 30px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .main-nav {
+        display: flex;
+        width: 40%;
+
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .main-nav li:hover {
+        margin: 0;
+        border: black 2px solid;
+    }
+
+
+    .nav-links {
+        display: flex;
+        margin: auto;
+        padding: auto;
+        margin: 0.7em;
+
+    }
+
+
+
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .logo:hover,
+    .nav-links:hover {
+        color: #333;
+    }
+}
