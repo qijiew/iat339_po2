@@ -223,3 +223,80 @@ textarea {
 		flex-basis: 90%;
 	}
 }
+
+/*detail logo interactive part*/
+
+.detial-logo-row{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin:auto;
+
+    padding-top: 2em;
+    
+}
+
+
+.detial-logo-col{
+    text-align: center;
+    flex:0 0 25%;
+    max-width: 25%;
+
+}
+
+.detial-logo-icon{
+   
+    background-color:#262223;
+  
+   
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+   
+    transition: all .2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+.detial-logo-icon i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+
+.detial-head-content{
+
+    display:flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .detial-logo-row{
+        display:flex;
+        flex-direction: column;
+        flex-grow: 1;
+        
+        
+        
+        
+    }
+    .detial-logo-col{
+        text-align: center;
+        max-width: 100%;
+       
+    
+    }
+}
