@@ -64,18 +64,36 @@ span.price {
     text-align: center;
     background: white;
     color: #0e2d21;
+  border-bottom: 1.3px solid black;
 }
 
+.header2 {
+    padding: 30px;
+    text-align: center;
+    background: #173f5f;
+    color: #0e2d21;
+}
+
+.header2 h1 {
+    font-size: 50px;
+}
 .header h1 {
     font-size: 50px;
 }
 
 h2 {
-    margin-top: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
     text-decoration: none;
     color: black;
     font-family: 'Chelna';
     text-align: center;
+}
+
+div.a {
+   -webkit-text-decoration-line: overline; /* Safari */
+   text-decoration-line: overline;
+   margin-top: 5rem;
 }
 
 a {
@@ -93,7 +111,11 @@ p {
     width: 100%;
 }
 
-
+.containerr2 {
+    position: relative;
+    width: 100%;
+    background: #173f5f;
+}
 
 /* Style the list */
 .price {
@@ -105,7 +127,9 @@ p {
     transition: 0.3s;
     text-decoration: none;
     color: black;
+    border-style: solid;
 }
+
 
 /* Add shadows on hover */
 .price:hover {
@@ -114,21 +138,54 @@ p {
 
 /* Pricing header */
 .price .header {
-    background-color: #262623;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 25px;
     text-decoration: none;
 
 }
 
+.price2 {
+    list-style-type: none;
+    border: 1px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* Add shadows on hover */
+.price2:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* Pricing header */
+.price2 .header {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+
+}
 /* List items */
 .price li {
     text-decoration: none;
     color: black;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
+.price2 li {
+    text-decoration: none;
+    color: white;
+    background: #173f5f;
+    padding: 20px;
+    text-align: left;
+}
 /* Grey list item */
 .price .grey {
     background-color: #eee;
@@ -138,10 +195,10 @@ p {
 }
 
 .button {
-    background-color: #262223;
+    background-color: #eabf7d;
     border: none;
     color: white;
-    padding: 10px 25px;
+    padding: 7px 15px;
     text-align: center;
     text-decoration: none;
 
@@ -161,6 +218,24 @@ p {
 
 .button-nav:hover,
 .button-nav:focus {
+    background-color: rgb(200, 200, 200);
+}
+
+.button2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 4px;
+}
+
+
+
+.button2-nav:hover,
+.button2-nav:focus {
     background-color: rgb(200, 200, 200);
 }
 
