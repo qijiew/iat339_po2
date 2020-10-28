@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+/*
+.left-image{
+	border: 1px black solid;
+	flex-basis: 40%;
+	margin: 1rem 1rem;
+}
+.left-image > img{
+	width: 100%;
+}
+.detail-description{
+	border:1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1200px;
+    margin: auto;
+}
+.right-content{
+	display: flex;
+	flex-basis: 53%;
+	margin: 1rem 1rem;
+	border: 1px black solid;
+}*/
+/*
+.service{
+	border: 1px black solid;
+	flex-basis: 30%;
+}*/
+
+.detail-description {
+    display: flex;
+    margin-top: 3rem;
+    border:1px solid red;
+    padding:2rem;
+}
+
+.detail-description>div{
+	flex-grow: 1;
+}
+
+.detail-description>div:nth-child(1) {
+    width:500px;
+    border:1px solid red;
+}
+
+.detail-description>div:nth-child(1) img {
+    width:100%;
+    padding:1rem;
+    margin: auto;
+
+}
+
+.detail-description>div:nth-child(2) {
+    width: 50%;
+    padding: 2rem;
+    margin: 2vw;
+    border:1px solid red;
+}
+
+.detail-description>div:nth-child(2)>h1,
+h3 {
+    font-family: 'Chenla';
+    text-align: center;
+}
+
+.detail-description>div:nth-child(2)>div {
+    margin-top: 5em;
+}
+
+
+.service-detail{
+	border: 1px red solid;
+	display: flex;
+	max-width: 600px;
+	justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.service-detail>div{
+	border: 1px black solid;
+	flex-basis: 50%;
+}
+.service-detail>div>p{
+	text-align: center;
+}
+
+
+.contact-button {
+
+    background-color: #262223;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.pos{
+	text-align: center;
+}
+.contact-button:hover,
+.contact-button:focus {
+    background-color: #737272;
+    color: white;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 900px) {
+	.detail-description {
+		flex-direction: column;
+	}
+
+	.detail-description>div:nth-child(1) {
+    	width:100%;
+    	margin:0;
+    	padding:0;
+	}
+
+	.detail-description>div:nth-child(1) img {
+	    width:100%;
+	    margin:0;
+    	padding:0;
+	}
+
+	.detail-description>div:nth-child(2) {
+	    width: 100%;
+	    margin:0;
+	    padding:1rem 2rem;
+	}
+	
+	.service-detail{
+		flex-direction: column;
+	}
+	.service-detail>div{
+		flex-basis: 90%;
+	}
+}
