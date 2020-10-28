@@ -195,10 +195,6 @@ h2 {
     text-align: center;
 }
 
-.containerr {
-    position: relative;
-    width: 100%;
-}
 
 .price {
     list-style-type: none;
@@ -242,7 +238,7 @@ h2 {
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 5%;
+    opacity: 95%;
     transition: .5s ease;
     background-color: white;
 }

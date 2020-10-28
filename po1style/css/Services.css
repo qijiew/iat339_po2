@@ -162,16 +162,9 @@ p {
 }
 
 /* top images */
-.containerr {
-    position: relative;
-    width: 100%;
-}
 
-.containerr2 {
-    position: relative;
-    width: 100%;
-    background: #173f5f;
-}
+
+
 
 /* Style the list */
 .price {
@@ -222,7 +215,7 @@ p {
 }
 
 /* Pricing header */
-.price2 .header {
+.price2 .header2 {
     background-color: white;
     color: black;
     font-size: 25px;
@@ -309,7 +302,7 @@ p {
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 5%;
+
     transition: .5s ease;
     background-color: white;
 }
@@ -329,6 +322,8 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+
 
 /* Footer */
 .footer {
