@@ -108,6 +108,91 @@ h3 {
     transition: 0.3s;
 }
 
+
+
+
+
+/*form*/
+.container-pos {
+    width: 80%;
+    padding:1em;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px red solid;
+    margin-top: 1em;
+    
+}
+.container-pos h2{
+	font-family: 'Chenla';
+	text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    border: 4em;
+    border-radius: 1rem;
+    padding: 1em;
+    border: 0.2em solid white;
+    border-radius: 0.6em;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    margin-top: 0.375rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    margin-top: 0.375rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #D9D9D9;
+
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #262223;
+    color:white;
+    transition: background-color 0.5s ease-out;
+}
+
+textarea {
+
+    height: 121px;
+}
+
+
 @media only screen and (max-width: 900px) {
 	.detail-description {
 		flex-direction: column;
