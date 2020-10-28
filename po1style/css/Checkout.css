@@ -62,13 +62,13 @@ color:  #0e2d21;;
 }
   .button-nav {
   display: inline-block;
-  padding: 0.5rem;
   color: white;
   background-color:black;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-radius: 4px;
+  padding: 0.5rem;
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -124,12 +124,12 @@ color:  #0e2d21;;
   padding: 5px 20px 15px 20px;
 
   border-radius: 3px;
- 
+
 
 }
 
 .container {
- 
+
  width: 100%;
  max-width: 965px;
 }
@@ -151,6 +151,25 @@ color:  #0e2d21;;
 a{
   text-decoration: none;
   color: #262223;
+
+}
+
+p{
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3{
+  margin-top: 10px;
+    margin-bottom: 20px;
+}
+h5{
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+h6{
+  margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* Footer */
 .footer {
@@ -176,9 +195,7 @@ a{
     .row {
       flex-direction: column-reverse;
     }
-    .col-25 {
-      margin-bottom: 20px;
-    }
+
   }
 
 }
@@ -206,9 +223,13 @@ a{
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 455px) {
   .logoMenu a {
     float: none;
     width: 100%;
+  }
+
+  .col-25 {
+    margin-bottom: 20px;
   }
 }
