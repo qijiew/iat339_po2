@@ -159,12 +159,12 @@ p {
 
 /* top images */
 .containerr {
-    position: relative;
+    
     width: 100%;
 }
 
 .containerr2 {
-    position: relative;
+    
     width: 100%;
     background: #262223;
 }
@@ -290,7 +290,7 @@ p {
 .button2-nav:focus {
     background-color: rgb(200, 200, 200);
 }
-
+/*
 .overlay {
     position: absolute;
     top: 0;
@@ -319,6 +319,8 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+*/
 
 /* Footer */
 .footer {

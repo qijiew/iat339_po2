@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/po1main.css" rel="stylesheet">
     <link href="css/detail.css" rel="stylesheet">
-    <link href="css/nav_bar.css" rel="stylesheet">
+    <link href="css/nav_test.css" rel="stylesheet">
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -20,27 +20,47 @@
 
 
     <header>
-      <div class="logoMenu1">
+      <div class="nav-area">
+          <nav class="navbar" id="myTopnav">
+              <div class="navbar-toggle" id="js-navbar-toggle" onclick="openNav()">
+                  <i class="fa fa-bars"></i>
+              </div>
 
-         <div>
-             <h1><a href=""><i class="fa fa-bars"></i></a><a href="home.html">A.N.D Studio</a></h1>
-         </div>
+              <h1><a href="home.html" class="logo">A.N.D STUDIO</a></h1>
+              <ul class="main-nav" id="js-menu">
+                  <li>
+                      <a href="home.html" class="nav-links">Home</a>
+                  </li>
+                  <li>
+                      <a href="Services.html" class="nav-links">Service</a>
+                  </li>
+                  <li>
+                      <a href="Checkout.html" class="nav-links">Checkout</a>
+                  </li>
+                  <li>
+                      <a href="contact.html" class="nav-links">Contact</a>
+                  </li>
 
-         <div>
-             
-             <ul>
-                 <li><a href="P01styleguide.html">STYLEGUIDE</a></li>
-                 <li><a href="home.html">HOME</a></li>
-                 <li><a href="Services.html">SERVICES</a></li>
-                 <li><a href="Checkout.html">CHECKOUT</a></li>
-                 <li><a href="contact.html">CONTACT</a></li>
-             </ul>
-         </div>
-         <div><a href="">Search</a><a href=""><i class="fa fa-cart-plus"></i></a></div>
-     </div>
+              </ul>
+          </nav>
+      </div>
 
 
- </header>
+      <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              ×
+          </a>
+          <div class="overlay-content">
+              <a href="home.html">Home</a>
+              <a href="Services.html">Service</a>
+              <a href="Checkout.html">Checkout</a>
+              <a href="contact.html">Contact</a>
+          </div>
+      </div>
+
+      <script src="nav.js"></script>
+
+  </header>
 <!-- <div class="detail-description">
   <div class="left-image"><img src="image/primePlan.jpg" alt="Discuss the design plan" /></div>
   <div class="right-content">
