@@ -59,7 +59,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    position: relative;
+   
     border: 4em;
     border-radius: 1rem;
     padding: 1em;
@@ -144,7 +144,7 @@ textarea {
     margin:auto;
 
     padding-top: 2em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.9em;
     
 }
 
@@ -161,7 +161,7 @@ textarea {
     background-color:#262223;
   
    
-    position: relative;
+    
     z-index: 1;
     display: inline-block;
     padding: 0;
@@ -185,6 +185,11 @@ textarea {
     text-align: center;
     font-size: 1.25rem;
     line-height: 47px;
+}
+
+.contact-map-row p{
+
+    font-size: 90%;
 }
 
 @media only screen and (max-width: 600px) {
