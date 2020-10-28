@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
+    border:1px solid red;
 
 }
 /* overlay effect*/
@@ -69,7 +69,7 @@ body {
 @media screen and (min-width: 750px) {
     .navbar {
         display: flex;
-        width: 100%;
+        width: 90%;
         justify-content: space-between;
 
         padding-bottom: 0;
