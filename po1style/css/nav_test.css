@@ -17,23 +17,25 @@ body {
     background-color: white;
 
     padding-bottom: 10px;
-
+    font-family: 'Lato', sans-serif;
 }
 
 .main-nav {
     list-style-type: none;
     display: none;
-
+    font-family: 'Lato', sans-serif;
 }
 
 .nav-links,
 .logo {
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: black;
 
 }
 
 .main-nav li {
+    font-family: 'Lato', sans-serif;
     text-align: center;
     margin: 15px auto;
 }
@@ -43,6 +45,7 @@ body {
 }
 
 .logo {
+    font-family: 'Lato', sans-serif;
     display: inline-block;
     font-size: 30px;
     margin-top: 10px;
