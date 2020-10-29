@@ -72,7 +72,7 @@ span.price {
     text-align: center;
     background: #173f5f;
     color: #0e2d21;
-    border-bottom: 1.3px solid #eabf7d;
+    border-bottom: 1.3px solid grey;
 }
 
 .header2 h1 {
@@ -202,7 +202,7 @@ p {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     text-decoration: none;
-    color: #eabf7d;
+    color: grey;
     border-style: solid ;
 
 
