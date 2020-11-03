@@ -1,0 +1,44 @@
+footer{
+    border:1px solid red;
+}
+
+
+.footer-container{
+display:flex;
+flex-direction: row;
+width:80%;
+justify-content:space-between;
+
+
+
+}
+
+
+.footer-container-brand h4{
+    padding-bottom: 0.5em;
+    font-size:1.5em;
+}
+
+.footer-container-brand{
+
+width:25%;
+text-align:left;
+
+
+}
+.footer-container-info h4{
+
+    padding-bottom: 1em;
+    font-size:1em;
+
+}
+.footer-container-info{
+
+width:30%;
+
+
+}
+
+.footer-container-info a{
+    text-decoration: none;
+}
