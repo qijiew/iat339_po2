@@ -1,8 +1,3 @@
-/**{
-  border:1px solid red;
-}
-*/
-
 
 .service-column {
     float: left;
@@ -100,7 +95,7 @@ div.single_product_container{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
+
 
 }
 
@@ -146,7 +141,7 @@ section.element{
 
 h2 {
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-decoration: none;
     color: black;
     font-family: 'Chelna';
