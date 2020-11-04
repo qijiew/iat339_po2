@@ -1,7 +1,8 @@
 *{
 
     box-sizing: border-box;
-    border:1px solid red;
+  
+    
 }
 
 body{
@@ -25,6 +26,7 @@ body{
     max-width: 1000px;
     margin: auto;
     display: flex;
+    padding-bottom: 2em;
 }
 
 .container-pos {
@@ -114,7 +116,7 @@ input[type=submit]:hover {
 
 textarea {
 
-    height: 121px;
+    height: 130px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -213,10 +215,4 @@ textarea {
     }
 }
 
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #f2f2f2;
-    margin-top: 20px;
-}
+
