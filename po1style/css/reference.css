@@ -1,0 +1,16 @@
+.reference{
+	background-color: #f1f1f1;
+	padding: 2em;
+}
+.reference> h1{
+	text-align: center;
+}
+.links{
+	border: solid black 1px;
+	width: 50vw;
+	margin: auto;
+}
+
+a{
+ 	color:  #737272;
+}
