@@ -266,9 +266,10 @@ p {
     border-radius: 4px;
 }
 
-.button-nav:hover,
-.button-nav:focus {
-    background-color: rgb(200, 200, 200);
+.button:hover,
+.button:focus {
+    background-color: black;
+    color:white;
 }
 
 .button2 {
@@ -286,9 +287,9 @@ p {
 
 
 
-.button2-nav:hover,
-.button2-nav:focus {
-    background-color: rgb(200, 200, 200);
+.button2:hover,
+.button2:focus {
+    background-color: #737272;
 }
 
 .overlay {
