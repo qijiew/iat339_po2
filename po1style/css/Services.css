@@ -133,10 +133,10 @@ td {
 border-bottom: 2px solid black;
 }
 
-section.element{
+section.border_element{
     padding: 2% 0% 3% 2%;
-    border-bottom: 2px solid #60b76d;
-    margin: 2% 0% 3% 0%;
+    border-top: 1px solid grey;
+margin: 2% 0% 3% 0%;
 }
 
 h2 {

@@ -5,6 +5,7 @@
 .detail-description {
     display: flex;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     /*border:1px solid red;*/
     padding:2rem;
 }
@@ -83,6 +84,7 @@ h3 {
 
 .detial-head-content>h2{
    font-family: 'Chenla';
+   margin-top: 2em;
 }
 
 
@@ -101,6 +103,7 @@ h3 {
 .container-pos h2{
 	font-family: 'Chenla';
 	text-align: center;
+  margin-top: 1em;
 
 }
 
@@ -187,7 +190,7 @@ textarea {
 
 
 h2 {
-    margin-top: 10rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
     text-decoration: none;
     color: black;
@@ -281,6 +284,11 @@ h2 {
     transition: 0.3s;
 }
 
+section.border_element{
+    padding: 2% 0% 3% 2%;
+    border-top: 1px solid grey;
+margin: 2% 0% 3% 0%;
+}
 
 @media only screen and (max-width: 900px) {
 	.detail-description {
@@ -320,7 +328,7 @@ h2 {
     flex-direction: row;
     width: 100%;
     margin:auto;
-
+margin-bottom: 2em;
     padding-top: 2em;
 
 }
