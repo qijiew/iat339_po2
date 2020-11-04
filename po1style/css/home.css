@@ -253,10 +253,6 @@ ul {
     /*border:1px solid red;*/
 }
 
-/*.logoMenu1>div:nth-child(1)>div{
-  display:none;
-}*/
-
 .logoMenu1>div:nth-of-type(2) {
     /*border:1px solid red;*/
     width: 65%;
@@ -361,8 +357,20 @@ ul {
 	.updateEvent>div:nth-child(2) {
 	    width: 100%;
 	    margin:0;
-	    padding:1rem 2rem;
+	    padding:0;
+        margin-top:1em; 
 	}
+    .updateEvent>div:nth-child(2)>p {
+  /*  width: 40em;*/
+    color: white;
+    width: 100%;
+    padding: 0;
+    }
+    .picture-background>p{
+        font-size: 13pt;
+    }
+
+
 }
 
 @media only screen and (max-width: 840px) {
@@ -376,61 +384,13 @@ ul {
         display: none;
     }
 
-  /*  .updateEvent {
-        flex-direction: column;
-        width: 90vw;
-    }
-
-    .updateEvent>div:nth-of-type(1) {
-        width: 100%;
-    }
-
-    .updateEvent>div:nth-of-type(2) {
-        width: 100%;
-        padding: 2rem;
-    }*/
-
     .picture-background>h2 {
         font-size: 40pt;
     }
 
-   /* .updateEvent>div:nth-of-type(1) img {
-        width: 60%;
-        height: 40em;
-        margin-left: 9em;
-        margin-top: 4em;
-    }*/
-
-   /* .updateEvent>div:nth-of-type(2) {
-        width: 60%;
-        padding: 2rem;
-        margin: 1em;
-    }*/
-
     .introImages {
         flex-direction: column;
     }
-
-    /*.introImages>div:nth-of-type(1) img {
-        width: 32em;
-        height: 30em;
-        margin-top: 3em;
-        margin-left: 3em;
-    }
-
-    .introImages>div:nth-of-type(2) {
-        margin-left: 2em;
-    }
-
-    .introImages>div:nth-of-type(2)>div:nth-of-type(1) img {
-        width: 32em;
-        height: 30em;
-    }
-
-    .introImages>div:nth-of-type(2)>div:nth-of-type(2) img {
-        width: 32em;
-        height: 30em;
-    }*/
 
     .icon-section{
 		flex-direction: column;
@@ -452,5 +412,16 @@ ul {
 
     .logoMenu1>div:nth-of-type(3) {
         width: 100%;
+    }
+
+    .icon-section{
+        flex-direction: column;
+    }
+
+/*    .icon-section>div{
+        border: 1px solid black;
+    }*/
+    .generalService >div:nth-of-type(2){
+         width: 100%;
     }
 }
