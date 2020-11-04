@@ -2,7 +2,6 @@
 
     box-sizing: border-box;
 
-    border:1px solid red;
 }
 
 body{
@@ -15,6 +14,7 @@ body{
     justify-content: center;
     text-align: center;
     padding-top: 5rem;
+    margin-bottom: 2rem;
   }
   .content{
     font-family:'Open Sans', sans-serif;
@@ -30,14 +30,14 @@ body{
 .container-pos {
     width: 50%;
     padding:1em;
-    
+
 }
 
 .contact-map {
     width: 50%;
     padding:1em;
-   
-    
+
+
 }
 .contact-map-border{
     border: 0.2em solid white;
@@ -46,11 +46,11 @@ body{
 }
 
 .contact-map iframe {
-    
+
     width: 100%;
     height: 20em;
-   
-    
+
+
 }
 
 
@@ -61,7 +61,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: white;
-   
+
     border: 4em;
     border-radius: 1rem;
     padding: 1em;
@@ -121,7 +121,7 @@ textarea {
     .contact-container {
         flex-direction: column;
     }
-    
+
     .contact-container>div{
       width:100%;
     }
@@ -147,7 +147,7 @@ textarea {
 
     padding-top: 2em;
     padding-bottom: 0.9em;
-    
+
 }
 
 
@@ -159,11 +159,11 @@ textarea {
 }
 
 .contact-map-icon{
-   
+
     background-color:#262223;
-  
-   
-    
+
+
+
     z-index: 1;
     display: inline-block;
     padding: 0;
@@ -172,9 +172,9 @@ textarea {
     vertical-align: middle;
     cursor: pointer;
     border-radius: 50%;
-    
+
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
-   
+
     transition: all .2s ease-in-out;
     width: 47px;
     height: 47px;
@@ -195,21 +195,21 @@ textarea {
 }
 
 @media only screen and (max-width: 600px) {
-    
+
     .contact-map-row{
         display:flex;
         flex-direction: column;
         flex-grow: 1;
-        
-        
-        
-        
+
+
+
+
     }
     .contact-map-col{
         text-align: center;
         max-width: 100%;
-       
-    
+
+
     }
 }
 
