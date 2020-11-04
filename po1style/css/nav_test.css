@@ -2,8 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-
+    
+    
 }
 
 body {
@@ -37,11 +37,12 @@ body {
 .main-nav li {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    margin: 15px auto;
+    
 }
 
 .main-nav li:hover {
-    border: black 2px solid;
+    margin: 0;
+   
 }
 
 .logo {
@@ -62,9 +63,7 @@ body {
     margin-top: 10px;
 }
 
-.active {
-    display: block;
-}
+
 
 @media screen and (min-width: 750px) {
     .navbar {
@@ -91,18 +90,29 @@ body {
 
         flex-direction: row;
         justify-content: space-around;
-
-
+        height:80%;
+     
     }
 
     .main-nav li {
         margin: 0;
+        
+        
+        
     }
 
-    .main-nav li:hover {
-        margin: 0;
-        border: black 2px solid;
-    }
+    .main-nav li:after {
+        display:block;
+        content: '';
+        border-bottom: solid 5px#262223;  
+        border-radius: 5px;
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+      }
+      .main-nav li:hover:after { transform: scaleX(1); }
+
+
+    
 
 
     .nav-links {
