@@ -46,6 +46,13 @@ font-size: 13px;
   color: black;
 }
 
+.detail-description {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    /*border:1px solid red;*/
+    padding:2rem;
+}
 
 
 
