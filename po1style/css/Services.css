@@ -114,7 +114,6 @@ border-bottom: 2px solid black;
 
 section.border_element{
     padding: 2% 0% 3% 2%;
-    border-top: 1px solid grey;
 margin: 2% 0% 3% 0%;
 }
 
@@ -131,9 +130,6 @@ h2 {
 p {
     font-size: 18px;
 }
-
-/* top images */
-
 
 
 
