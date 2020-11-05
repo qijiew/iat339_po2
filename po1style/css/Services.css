@@ -109,12 +109,12 @@ th{
 td {
   text-align:left;
   padding: 8px;
-border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 section.border_element{
     padding: 2% 0% 3% 2%;
-margin: 2% 0% 3% 0%;
+    margin: 2% 0% 3% 0%;
 }
 
 h2 {

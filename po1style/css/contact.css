@@ -18,8 +18,9 @@ body{
     margin-bottom: 2rem;
   }
   .content{
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Chenla';
     font-size: 1.3rem;
+    font-weight:normal;
   }
 
 .contact-container {
@@ -40,6 +41,9 @@ body{
     padding:1em;
 
 
+}
+h2{
+    font-weight:normal;
 }
 .contact-map-border{
     border: 0.2em solid white;
