@@ -361,19 +361,22 @@ transition: .3s ease-out;
 }
 
 
-.product-button {
-  background-color:  #262223;
+.product-button {    
+  background-color: #737272;
   border: none;
   color: white;
-  padding: 10px 25px;
+  padding: 7px 15px;
   text-align: center;
   text-decoration: none;
-
+  display: inline-block;
+  margin: 4px 2px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .product-button:hover, .product-button:focus {
-  background-color:  #262223 ;
+  background-color: black;
+  color:white;
 
 }
 
