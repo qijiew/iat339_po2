@@ -54,28 +54,7 @@ span.price {
     color: grey;
 }
 
-.header {
-    padding: 30px;
-    text-align: center;
-    background: white;
-    color: #0e2d21;
-  border-bottom: 1.3px solid black;
-}
 
-.header2 {
-    padding: 30px;
-    text-align: center;
-    background: #173f5f;
-    color: #0e2d21;
-    border-bottom: 1.3px solid grey;
-}
-
-.header2 h1 {
-    font-size: 50px;
-}
-.header h1 {
-    font-size: 50px;
-}
 
 div.tContainer{
   flex-direction: column;
@@ -148,11 +127,6 @@ h2 {
     text-align: center;
 }
 
-
-a {
-    text-decoration: none;
-    color: #a6a6a6;
-}
 
 p {
     font-size: 18px;
@@ -332,10 +306,6 @@ p {
 }
 
 @media screen and (max-width: 900px) {
-
-  /*  .service-column {
-        width: 50%;
-    }*/
 
     .columnn {
         width: 100%;
