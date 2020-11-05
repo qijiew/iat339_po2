@@ -402,6 +402,9 @@ margin-bottom: 2em;
     .columnn {
         width: 100%;
     }
+    .container-pos{
+        width:100%;
+    }
 }
 
 @media screen and (max-width: 900px) {
