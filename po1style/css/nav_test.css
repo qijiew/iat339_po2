@@ -81,7 +81,7 @@ body {
         width: 60%;
         font-size: 30px;
         margin: auto;
-        padding: auto;
+       
     }
 
     .main-nav {
@@ -118,7 +118,7 @@ body {
     .nav-links {
         display: flex;
         margin: auto;
-        padding: auto;
+        
         margin: 0.7em;
 
     }
