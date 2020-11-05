@@ -167,3 +167,8 @@ width:20%;
    
     margin-top: 20px;
 }
+
+.footer-container-info-text a:hover{
+    background-color: #D9D9D9;
+    transition: .3s ease;
+ }
