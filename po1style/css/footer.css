@@ -3,7 +3,6 @@ padding-top:3em;
 background: #f2f2f2;
 }
 
-
 .footer-container{
 display:flex;
 flex-direction: row;
@@ -61,7 +60,7 @@ width:20%;
     color:black;
 }
 .footer-container-info-text a:hover{
-    
+
     font-weight: bold;
     color:black;
 }
@@ -112,7 +111,7 @@ width:20%;
 
 @media only screen and (max-width: 700px) {
 
-    
+
 .footer-container{
     display:flex;
     flex-direction: column;
@@ -178,7 +177,7 @@ width:20%;
     padding: 20px;
     padding-top:3em;
     text-align: center;
-   
+border-top: 1px solid grey;
     margin-top: 20px;
 }
 
